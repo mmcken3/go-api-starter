@@ -11,8 +11,6 @@ services:
     command: ["/go/bin/api"]
     env_file:
       - .env
-    links:
-      - postgres:postgres
     ports:
       - "8002:8002"
     networks:

@@ -4,4 +4,4 @@ ARG package
 
 WORKDIR /go/src/github.com/mmcken3/go-api-starter/go
 COPY . /go/src/github.com/mmcken3/go-api-starter/go
-RUN go-wrapper install "github.com/Clemson-CPSC-4910/s18-fish-findr/go/fisher/cmd/$package"
+RUN go-wrapper install "github.com/mmcken3/go-api-starter/go/go-api-starter/cmd/$package"
