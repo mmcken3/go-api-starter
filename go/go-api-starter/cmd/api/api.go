@@ -14,7 +14,8 @@ func main() {
 	router := mux.NewRouter()
 
 	// Configure all of the different API endpoints.
-	router.HandleFunc("/v1/test", TestEndpoint).Methods("GET")
+	router.HandleFunc("/v1/test", TestGetEndpoint).Methods("GET")
+	router.HandleFunc("/v1/test/submit", TestGetEndpoint).Methods("POST")
 
 	// Handle the endpoints and serve on a set port.
 	// This endpoint could be set in a env variable and pulled from there.
