@@ -15,7 +15,7 @@ func main() {
 
 	// Configure all of the different API endpoints.
 	router.HandleFunc("/v1/test", TestGetEndpoint).Methods("GET")
-	router.HandleFunc("/v1/test/submit", TestGetEndpoint).Methods("POST")
+	router.HandleFunc("/v1/test/submit", TestPostEndpoint).Methods("POST")
 
 	// Handle the endpoints and serve on a set port.
 	// This endpoint could be set in a env variable and pulled from there.
