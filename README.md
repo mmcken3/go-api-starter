@@ -8,12 +8,12 @@ In order to use this you need to have a working [go](https://golang.org/doc/inst
 
     git clone https://github.com/mmcken3/go-api-starter.git
 
-Once in the repo you can run the make commands to buidl or run the tool:
+Once in the repo you can run the make commands to build or run the tool:
 
-    make build (this will only build the containers)
-    make run (this will build and run the containers)
+    make build (this will only install the go code)
+    make run (this will install and run the api)
 
-When the containers are up and running successfully you will see a message that says:
+When the api is up and running successfully you will see a message that says:
 
     go-api-starter | Go API Starter is now running!
 
