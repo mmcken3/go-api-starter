@@ -11,6 +11,7 @@ In order to use this you need to have a working [go](https://golang.org/doc/inst
 Once in the repo you can run the make commands to build or run the tool:
 
     make build (this will only install the go code)
+    make cert (only need to run once, sets up local certs for https)
     make run (this will install and run the api)
 
 When the api is up and running successfully you will see a message that says:
@@ -36,8 +37,12 @@ Then you can go into the api.go file in the same directory and add the Handler t
 
     router.HandleFunc("[endpoint path]", [route function]).Methods("[method]")
 
-# Open Sorce Packages Used
+# Open Sorce Go Packages Used
 
-[github.com/gorilla/mux](https://github.com/gorilla/mux)
-
-[github.com/rs/cors](https://github.com/rs/cors)
+- [github.com/go-chi/chi](https://github.com/go-chi/chi)
+- [github.com/go-chi/render](https://github.com/go-chi/render)
+- [github.com/joho/godotenv](https://github.com/joho/godotenv)
+- [github.com/kelseyhightower/envconfig](https://github.com/kelseyhightower/envconfig)
+- [github.com/pkg/errors](https://github.com/pkg/errors)
+- [github.com/sirupsen/logrus](https://github.com/sirupsen/logrus)
+- [github.com/golang/dep](https://github.com/golang/dep)
