@@ -1,4 +1,4 @@
-FROM golang:1.11.5
+FROM golang:1.12.6
 
 WORKDIR /go/src/github.com/mmcken3/go-api-starter
 COPY . /go/src/github.com/mmcken3/go-api-starter
