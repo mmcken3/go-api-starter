@@ -25,8 +25,8 @@
 [[projects]]
   name = "github.com/kelseyhightower/envconfig"
   packages = ["."]
-  revision = "f611eb38b3875cc3bd991ca91c51d06446afa14c"
-  version = "v1.3.0"
+  revision = "0b417c4ec4a8a82eecc22a1459a504aa55163d61"
+  version = "v1.4.0"
 
 [[projects]]
   name = "github.com/konsorten/go-windows-terminal-sequences"
@@ -50,7 +50,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "61b9204099cb1bebc803c9ffb9b2d3acd9d457d9"
+  revision = "04f50cda93cbb67f2afa353c52f342100e80e625"
 
 [solve-meta]
   analyzer-name = "dep"
