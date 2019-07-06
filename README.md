@@ -20,6 +20,16 @@ When the api is up and running successfully you will see a message that says:
 
 With this there are two test API endpoints that can be hit at the address `http://localhost:8002`
 
+## Go Dep
+
+This api starter is now set up to be using go mods with the vendors committed as of v2.0. If you would like to use the version of this api that uses dep it was switched over after release v1.3. Here are steps for how to get yourself in a new branch with the go api starter that was using dep.
+
+```bash
+git clone https://github.com/mmcken3/go-api-starter.git
+cd go-api-starter
+git checkout tags/v1.3 -b api-with-dep
+```
+
 # Test API Endpoints
 
 Here is a table of the two test endpoints that are already configfured into the API.
@@ -45,4 +55,3 @@ Then you can go into the api.go file in the same directory and add the Handler t
 - [github.com/kelseyhightower/envconfig](https://github.com/kelseyhightower/envconfig)
 - [github.com/pkg/errors](https://github.com/pkg/errors)
 - [github.com/sirupsen/logrus](https://github.com/sirupsen/logrus)
-- [github.com/golang/dep](https://github.com/golang/dep)
